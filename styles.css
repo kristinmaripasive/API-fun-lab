@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
+
+/** {
+  border: 1px solid blue;
+}*/
+
+body {
+  background-color: #333A45;
+}
+
+h1 {
+font-family: 'Gloria Hallelujah', cursive;
+text-align: center;
+font-size: 50px;
+}
+
+p {
+  font-family: 'Coming Soon', cursive;
+}
+
+.main {
+  box-shadow: 3px 3px 20px 5px #E41A4C;
+  margin: 50px;
+  background-color: #FEBEBF;
+  padding: 50px 50px;
+}
+
+input, button {
+  margin: 15px auto;
+  display: block;
+  border-radius: 40%;
+}
+
+button {
+  border: 2px solid #FFD6F3;
+  background:#FFD6F3;
+  border: 1px solid white;
+}
+
+input {
+  width: 300px;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+
+-webkit-box-shadow:
+  inset 0 0 8px  #E41A4C,
+        0 0 16px #E41A4C;
+box-shadow:
+  inset 0 0 8px  #E41A4C,
+        0 0 16px #E41A4C;
+padding: 10px;
+background: #FFD6F3;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+.picture {
+  margin: 30px auto;
+  display: block;
+  border-radius: 10%;
+}
+
+.content {
+  text-align: center;
+  font-weight: bolder;
+}
